@@ -27,9 +27,7 @@ export const Route = createFileRoute("/")({
 function HomePage() {
   const featured = products.slice(0, 3);
   const collections = [
-    { title: "Riding Gear", desc: "Jerseys, pants, gloves.", to: "/shop" as const, img: products[0].image },
-    { title: "Protection", desc: "Helmets and boots that take a hit.", to: "/shop" as const, img: products[2].image },
-    { title: "Lifestyle", desc: "Off-track fits from the paddock.", to: "/shop" as const, img: products[5].image },
+    { title: "Riding Gear", desc: "Jerseys built for the send.", to: "/shop" as const, img: products[0].image },
   ];
 
   return (
